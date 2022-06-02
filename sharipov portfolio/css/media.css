@@ -1,0 +1,545 @@
+
+@media (max-width: 1309px) {
+.owl-prev {
+	left: 15px;
+	opacity: 0.5;
+}
+
+.owl-next {
+	right: 15px;
+	opacity: 0.5;
+}
+}
+
+@media (max-width: 1249px) {
+.headbar{
+	padding: 30px 40px 30px 40px;
+}
+
+.foto-wrap, .price {
+	padding: 0 40px 0 40px;
+}
+
+.footer-content {
+	padding: 80px 40px 90px 40px;
+}
+
+.intro-ellipse {
+	width: 800px;
+	height: 650px;
+	bottom: -100px;
+	right: -150px;
+}
+
+.wrap-container {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+.intro__symbol_4 {
+	-webkit-animation: fly_symbol_4_wide;
+	        animation: fly_symbol_4_wide;
+	-webkit-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.price-banner__symbol_1, .price-banner__symbol_4 {
+	top: 40px;
+}
+
+.dev-name {
+	font-size: 54px;
+}
+}
+
+@media (max-width: 1024px) {
+.headbar-menu {
+	display: none;
+}
+
+.headbar__menu-btn_mobile {
+	display: inline-block;
+}
+
+.dropdown-menu {
+	display: block;
+}
+
+.dev-name {
+	font-size: 54px;
+}
+
+.more-btn {
+	width: 320px;
+}
+
+.intro-ellipse {
+	width: 800px;
+	height: 650px;
+	bottom: -100px;
+	right: -250px;
+}
+
+.intro__symbol_flying {
+	font-size: 40px;
+}
+
+.intro__symbol_3 {
+	-webkit-animation: fly_symbol_3-tablet;
+	        animation: fly_symbol_3-tablet;
+	-webkit-animation-duration: 1.3s;
+	        animation-duration: 1.3s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.intro__symbol_4::before {
+	content: '</>';
+}
+
+.intro__symbol_4 {
+	-webkit-animation: fly_symbol_4-tablet;
+	        animation: fly_symbol_4-tablet;
+	-webkit-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.intro__symbol_5 {
+	-webkit-animation: fly_symbol_5-tablet;
+	        animation: fly_symbol_5-tablet;
+	-webkit-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.jobs-list {
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.jobs-list__item:nth-child(n+3) {
+ 	margin-top: 90px;
+ }
+
+.slider-nav-container {
+	display: none;
+}
+
+.exapmle__item__wrap {
+	margin-bottom: 45px;
+}
+
+.price-banner__symbol_1 {
+	left: 150px;
+}
+
+.price-banner__symbol_2, .price-banner__symbol_3 {
+	display: none;
+}
+
+.price-banner__symbol_5 {
+	right: 500px;
+}
+
+.price-banner__symbol_4 {
+	top: initial;
+	bottom: 40px;
+}
+}
+
+@media (max-width: 768px) {
+.headbar{
+	padding: 20px;
+}
+
+.headbar-phone {
+	display: none;
+}
+
+.headbar__phone-number_mobile, .headbar__phone-btn_mobile {
+	display: block;
+}
+
+.headbar__menu-btn_mobile {
+	width: 24px;
+	height: 20px;
+	background-size: contain;
+}
+
+.intro-ellipse {
+	width: 919px;
+	height: 763px;
+	bottom: -10px;
+	right: -100px;
+}
+
+.intro__symbol_flying {
+	font-size: 20px;
+}
+
+.intro__symbol_1 {
+	-webkit-animation: fly_symbol_1-mobile_wide;
+	        animation: fly_symbol_1-mobile_wide;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.intro__symbol_2 {
+	-webkit-animation: fly_symbol_2-mobile_wide;
+	        animation: fly_symbol_2-mobile_wide;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.intro__symbol_3 {
+	display: none;
+}
+
+.intro__symbol_4 {
+	-webkit-animation: fly_symbol_4-mobile_wide;
+	        animation: fly_symbol_4-mobile_wide;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.intro__symbol_5 {
+	-webkit-animation: fly_symbol_5-mobile_wide;
+	        animation: fly_symbol_5-mobile_wide;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.foto-wrap {
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	padding: 0;
+}
+
+.foto-wrap__foto-container {
+	-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;
+	margin-right: 20px;
+}
+
+.dev-foto {
+	-webkit-filter: none;
+  	filter: none;
+ }
+
+.foto-wrap__name-container {
+	padding: 20px 20px 0 20px;
+	-webkit-box-ordinal-group: 3;
+	    -ms-flex-order: 2;
+	        order: 2;
+	width: 100%;
+	background-color: #fbfbfb;
+}
+
+.dev-name {
+	font-size: 30px;
+	text-align: center;
+}
+
+.dev-profession {
+	margin: 20px 0 25px 0;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.btn_orange {
+	line-height: 52px;
+}
+
+#jobs {
+	padding: 50px 0 0;
+	background-color: inherit;
+}
+
+.jobs__head, .examples__head {
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.jobs-list {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 50px 0;
+}
+
+.jobs-list__item {
+	max-width: 100%;
+}
+
+.jobs-list__item:nth-child(n+2) {
+ 	margin-top: 50px;
+ }
+
+.jobs-list__item-description, .example__item__description {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.jobs-list__item-img:hover {
+	-webkit-transform: none;
+	    -ms-transform: none;
+	        transform: none;
+}
+
+.example__item__description a:hover {
+	color: #8993ad;
+	border: none;
+}
+
+.more-btn, .order-btn, .price-btn {
+	width: 280px;
+	height: 54px;
+	margin: 0 auto;
+}
+
+#examples {
+	padding: 100px 0 50px 0;
+}
+
+.examples__head {
+	margin-bottom: 40px;
+}
+
+.example__item__description {
+	margin-top: 25px;
+}
+
+ .order-btn {
+ 	margin-top: 45px;
+ }
+
+#price-banner {
+	padding: 40px 0;
+}
+
+.price-banner__head {
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.price-banner__txt {
+	font-size: 16px;
+}
+
+.price-banner__symbol_flying {
+	display: none;
+}
+
+.footer-content {
+	padding: 40px 20px 50px 20px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.footer-menu {
+	margin-bottom: 25px;
+}
+
+.footer-menu__block {
+	font-size: 16px;
+}
+
+.contacts-wrap ul {
+	font-size: 20px;
+	color: #8993ad;
+	font-weight: 500;
+}
+
+.footer-btn {
+	width: 280px;
+	height: 54px;
+	margin: 20px auto;
+	color: #ffffff;
+	background-color: #ff4e2e;
+	line-height: 52px;
+	font-size: 16px;
+}
+
+.headbar-menu__link:hover, .footer-menu__link:hover, .phone:hover, .e-mail:hover {
+	color: inherit;
+	border: none;
+}
+
+.phone-us-btn:hover {
+	color: #ffffff;
+	background-color: #ff4e2e;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.btn_orange:hover {
+	color: #ffffff;
+	background-color: #ff4e2e;
+	border: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.icon-vk:hover, 
+.icon-facebook:hover, 
+.icon-twitter-bird:hover, 
+.icon-instagram:hover {
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+	font-size: 22px;
+	color: #8993ad;
+}
+}
+
+@media (max-width: 450px) {
+.intro-ellipse {
+	width: 650px;
+	height: 470px;
+	bottom: 60px;
+	right: -170px;
+}
+
+.foto-wrap {
+	padding-top: 60px;
+}
+
+.foto-wrap__foto-container {
+	width: 220px;
+	right: -50px;
+}
+
+.jobs-list {
+	padding: 0 20px;
+}
+
+.socials-wrap {
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+}
+
+.intro__symbol_1 {
+	-webkit-animation: fly_symbol_1-mobile_small;
+	        animation: fly_symbol_1-mobile_small;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.intro__symbol_2 {
+	-webkit-animation: fly_symbol_2-mobile_small;
+	        animation: fly_symbol_2-mobile_small;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.intro__symbol_3 {
+	display: none;
+}
+
+.intro__symbol_4 {
+	-webkit-animation: fly_symbol_4-mobile_small;
+	        animation: fly_symbol_4-mobile_small;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.intro__symbol_5 {
+	-webkit-animation: fly_symbol_5-mobile_small;
+	        animation: fly_symbol_5-mobile_small;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+
+.footer-bar__copyright small {
+	font-size: 12px;
+	line-height: 40px;
+}
+}
+
+
