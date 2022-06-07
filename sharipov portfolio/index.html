@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Frontend-разработчик Шарипов Хушнуд</title>
+
+	<link rel="shortcut icon" href="css/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="popup__container">
+		<ul class="dropdown-menu">
+			<li class="dropdown-menu__block">
+				<a class="dropdown-menu__link" href="#jobs">Услуги</a>
+			</li>
+			<li class="dropdown-menu__block">
+				<a class="dropdown-menu__link" href="#examples">Портфолио</a>
+			</li>
+			<li class="dropdown-menu__block">
+				<a class="dropdown-menu__link" href="#price-banner">Стоимость</a>
+			</li>
+			<li class="dropdown-menu__phone">
+				<a href="tel:+74999955577" title="Мой телефон">+992 (92) 609-90-97	</a>
+			</li>
+			<li class="dropdown-menu__mail">
+				<a href="mailto:dmitry@alekseev.com" title="Моя почта">dmitry@alekseev.com</a>
+			</li>
+			<li class="dropdown-menu__socials-item">
+				<a class="socials-list__link" href="https://vk.com" title="Мы Вконтакте">
+					<span class="icon-vk dropdown-socials-icon"></span>
+				</a>
+			</li>
+			<li class="dropdown-menu__socials-item">
+				<a class="socials-list__link" href="https://www.facebook.com" title="Мы в Facebook">
+					<span class="icon-facebook dropdown-socials-icon"></span>
+				</a>
+			</li>
+			<li class="dropdown-menu__socials-item">
+				<a class="socials-list__link" href="https://www.twitter.com" title="Мы в Twitter">
+					<span class="icon-twitter-bird dropdown-socials-icon"></span>
+				</a>
+			</li>
+			<li class="dropdown-menu__socials-item">
+				<a class="socials-list__link" href="https://www.instagram.com" title="Мы в Instagram">
+					<span class="icon-instagram dropdown-socials-icon"></span>
+				</a>
+			</li>
+		</ul>
+
+		<div class="recall-form__container">
+			<form class="recall-form" method="post" action="https://echo.htmlacademy.ru" enctype="multipart/form-data">
+				<label class="recall-form__input">
+					&#8432;Ваше имя:
+					<input id="client-name" name="clientName" type="text" size="24" required>
+				</label>
+
+				<label class="recall-form__input">
+					&#8432;Ваш e-mail:
+					<input id="client-email" name="clientEmail" type="email" size="24" placeholder="example@gmail.com"
+						required>
+				</label>
+
+				<label class="recall-form__input">
+					&#8432;Ваш телефон:
+					<input id="input-phone client-phone-number" name="clientPhoneNumber" type="tel" size="24" placeholder="+7 (___) ___-__-__"
+						required>
+				</label>
+
+				<label class="recall-form__input agreement__checkbox">
+					<input id="pdata-agreement" name="pDataAgreement" type="checkbox" value="agree" required>
+					Настоящим подтверждаю согласие на обработку персональных данных
+				</label>
+
+				<input class="submit-btn" type="submit" value="Отправить">
+			</form>
+		</div>
+
+		<div class="form-submit-success">
+			<p>
+				Благодарю за Ваше обращение!
+			</p>
+		</div>
+	</div>
+
+	<header class="header">
+		<div class="headbar flex-container">
+			<button class="headbar__menu-btn_mobile" type="button" aria-label="меню">
+			</button>
+
+			<ul class="headbar-menu">
+				<li class="headbar-menu__block">
+					<a class="headbar-menu__link" href="#jobs">Услуги</a>
+				</li>
+				<li class="headbar-menu__block">
+					<a class="headbar-menu__link" href="#examples">Портфолио</a>
+				</li>
+				<li class="headbar-menu__block">
+					<a class="headbar-menu__link" href="#price-banner">Стоимость</a>
+				</li>
+			</ul>
+
+			<div class="headbar-phone">
+				<span class="headbar-phone__number">
+					<span class="phone">
+						<a href="tel:+74999955577" title="Мой телефон">
+							+992 (92) 609-90-97
+						</a>
+					</span>
+				</span>
+
+				<button class="headbar-phone__btn phone-us-btn recall_btn" type="button"
+					aria-label="Кнопка вызова формы обратного звонка">
+					Заказать звонок
+				</button>
+			</div>
+
+			<span class="headbar__phone-number_mobile">
+				<a href="tel:+74999955577" title="Мой телефон">
+					+992 (92) 609-90-97
+				</a>
+			</span>
+
+			<button class="headbar__phone-btn_mobile recall_btn" type="button" aria-label="Кнопка звонка">
+				<span class="icon-phone-circled"></span>
+			</button>
+		</div>
+
+		<div class="intro">
+			<div class="intro-ellipse">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 942 780" width="942" height="780">
+					<defs>
+						<linearGradient id="grd1" gradientUnits="userSpaceOnUse" x1="383.174" y1="775.676" x2="559.308"
+							y2="12.756">
+							<stop offset="0" stop-color="#ff8f5a" />
+							<stop offset="0.987" stop-color="#ff2f95" />
+						</linearGradient>
+					</defs>
+					<style>
+						tspan {
+							white-space: pre
+						}
+
+						.shp0 {
+							fill: url(#grd1)
+						}
+					</style>
+					<g id="screen_1">
+						<g id="bg_man_figure">
+							<path id="Ellipse_1" class="shp0"
+								d="M406.52 52.41C513.26 1.95 613.99 1.8 698.21 39.67C782.65 77.24 850.57 152.84 896.7 246.79C940.97 341.67 940.93 443.58 904.77 526.03C868.11 609.7 807.1 672.78 723.97 717.8C679.94 740.47 633.65 756 574.82 765.53C516.76 774.93 446.14 778.33 371.32 773.48C222.85 764.16 56.45 720.4 21.36 621.69C1.47 572.68 13.95 516.49 38.68 459.95C63.81 403.33 101.18 346.35 140.42 293.83C180.06 241.24 221.57 193.12 264.31 152.31C307.45 111.41 351.82 77.83 406.52 52.41L406.52 52.41Z" />
+						</g>
+					</g>
+				</svg>
+			</div>
+
+			<span class="intro__symbol_flying intro__symbol_1"></span>
+			<span class="intro__symbol_flying intro__symbol_2"></span>
+			<span class="intro__symbol_flying intro__symbol_3"></span>
+			<span class="intro__symbol_flying intro__symbol_4"></span>
+			<span class="intro__symbol_flying intro__symbol_5"></span>
+
+			<div class="flex-container">
+				<figure class="foto-wrap">
+					<div class="foto-wrap__foto-container">
+						<img class="dev-foto" src="img/intro-foto.png" alt="Шарипов Хушнуд">
+					</div>
+
+					<figcaption class="foto-wrap__name-container">
+						<h1 class="dev-name">Шарипов Хушнуд</h1>
+
+						<h3 class="dev-profession">Frontend-разработчик и веб-верстальщик</h3>
+
+						<a class="btn_orange more-btn recall_btn" href="#">Узнать больше
+						</a>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section id="jobs">
+			<div class="wrap-container flex-container">
+				<h2 class="section-head jobs__head">Что я делаю</h2>
+
+				<ul class="jobs-list flex-container">
+					<li class="jobs-list__item">
+						<figure class="jobs-list__item__wrap">
+							<img class="jobs-list__item-img" src="img/layout.png" alt="Картинка-верстка">
+
+							<figcaption>
+								<h3 class="jobs-list__item-description">
+									Верстка лендинг-страниц и&nbsp;сайтов любой сложности
+								</h3>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="jobs-list__item">
+						<figure class="jobs-list__item__wrap">
+							<img class="jobs-list__item-img" src="img/responsive.png" alt="Картинка-адаптив">
+
+							<figcaption>
+								<h3 class="jobs-list__item-description">
+									Адаптивная верстка под все браузеры и&nbsp;устройства
+								</h3>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="jobs-list__item">
+						<figure class="jobs-list__item__wrap">
+							<img class="jobs-list__item-img" src="img/programming.png" alt="Картинка-разработка">
+
+							<figcaption>
+								<h3 class="jobs-list__item-description">
+									Frontend-разработка и&nbsp;программирование
+								</h3>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="jobs-list__item">
+						<figure class="jobs-list__item__wrap">
+							<img class="jobs-list__item-img" src="img/coding.png" alt="Картинка-исправление и доработка">
+
+							<figcaption>
+								<h3 class="jobs-list__item-description">
+									Исправление и&nbsp;доработка существующей верстки
+								</h3>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+
+				<a class="btn_orange price-btn recall_btn" href="#">Узнать стоимость</a>
+			</div>
+		</section>
+
+		<section id="examples">
+			<div class="wrap-container flex-container">
+				<h2 class="section-head examples__head">Примеры моих работ</h2>
+				<div class="slider-wrap flex-container">
+					<div class="owl-carousel owl-theme">
+						<figure class="item exapmle__item__wrap ">
+							<a class="example__item__img" target="_blanck" href="https://javidrashkhansoi.github.io/oskolnet/#" title="Сайт психолога Веры Антоновой">
+								<img src="img/example_work1.png" alt="Сайт психолога Веры Антоновой">
+							</a>
+
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="https://javidrashkhansoi.github.io/oskolnet/" target="_blank" title="Сайт психолога Веры Антоновой">
+										Сайт Интернет провайдер
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+
+						<figure class="item example__item__wrap">
+							<a class="example__item__img" target="_blank" href="https://antonvorobkalo.github.io/Nike/" title="Сайт Nike">
+								<img src="img/example_work4.png" alt="Сайт Nike">
+							</a>
+						
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="https://antonvorobkalo.github.io/Nike/" target="_blank" title="Сайт Nike">
+										Сайт Nike
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+
+						<figure class="item example__item__wrap">
+							<a class="example__item__img" target="_blank" href="https://ved-proger.github.io/trade/" title="Сайт Аукцион">
+								<img src="img/example_work5.png" alt="Сайт Аукцион">
+							</a>
+						
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="https://ved-proger.github.io/trade/" target="_blank" title="Сайт Аукцион">
+										Сайт Аукцион
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+						<figure class="item example__item__wrap">
+							<a class="example__item__img" target="_blank" href="https://sharifovkh.github.io/romsem/romsem.tj/html/index.html" title="Сайт Romsem">
+								<img src="img/example_work9.png" alt="Сайт Romsem">
+							</a>
+						
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="https://sharifovkh.github.io/romsem/romsem.tj/html/index.html" target="_blank" title="Сайт Romsem">
+										Сайт Romsem
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+
+						<figure class="item example__item__wrap">
+							<a class="example__item__img" target="_blank" href="https://valentineyoungman.github.io/Fishing1/" title="Сайт Аукцион">
+								<img src="img/example_work6.png" alt="Сайт Fishing">
+							</a>
+						
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="https://valentineyoungman.github.io/Fishing1/" target="_blank" title="Сайт Fishing">
+										Сайт Fishing
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+
+						<figure class="item example__item__wrap">
+							<a class="example__item__img" target="_blank" href="https://valentineyoungman.github.io/Fishing1/"
+								title="Сайт Аукцион">
+								<img src="img/example_work8.png" alt="Сайт Fishing">
+							</a>
+						
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="" target="_blank" title="Сайт Fishing">
+										Сайт Zlatmax
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+
+						<figure class="item example__item__wrap">
+							<a class="example__item__img" target="_blank" href="#" title="Сайт магазина детской одежды">
+								<img src="img/example_work2.png" alt="Сайт магазина Пицца">
+							</a>
+
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="#" target="_blank" title="Сайт магазина Пицца">
+										Сайт магазина Пицца
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+
+						<figure class="item example__item__wrap">
+							<a class="example__item__img" href="https://antonvorobkalo.github.io/Mercedes/" target="_blank" title="Сайт Mercedes">
+								<img src="img/example_work3.png" alt="Сайт Mercedes">
+							</a>
+
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="https://antonvorobkalo.github.io/Mercedes/" target="_blank" title="Сайт Mercedes">
+										Сайт Mercedes
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+						<figure class="item example__item__wrap">
+							<a class="example__item__img" href="http://coolabs.v-ya.com.ua" target="_blank"
+								title="Сайт Coolabs">
+								<img src="img/example_work7.png" alt="Сайт Coolabs">
+							</a>
+						
+							<figcaption>
+								<h3 class="example__item__description">
+									<a href="http://coolabs.v-ya.com.ua" target="_blank" title="Сайт Coolabs">
+										Сайт Coolabs
+									</a>
+								</h3>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="slider-nav-container flex-container"></div>
+				</div>
+
+				<a class="btn_orange order-btn recall_btn" href="#">Заказать проект</a>
+			</div>
+		</section>
+
+		<section id="price-banner">
+			<span class="price-banner__symbol_flying price-banner__symbol_1"></span>
+			<span class="price-banner__symbol_flying price-banner__symbol_2"></span>
+			<span class="price-banner__symbol_flying price-banner__symbol_3"></span>
+			<span class="price-banner__symbol_flying price-banner__symbol_4"></span>
+			<span class="price-banner__symbol_flying price-banner__symbol_5"></span>
+
+			<div class="wrap-container flex-container">
+				<div class="price-container">
+					<h2 class="section-head price-banner__head">
+						Адаптивная верстка под все устройства и браузеры от 1000 рублей всего за 4 часа.
+					</h2>
+
+					<p class="price-banner__txt">
+						&#8432;Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются индивидуально,
+						в&nbsp;зависимости от&nbsp;сложности задач.
+					</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer-content flex-container">
+			<ul class="footer-menu">
+				<li class="footer-menu__block">
+					<a class="footer-menu__link" href="#jobs">Услуги</a>
+				</li>
+				<li class="footer-menu__block">
+					<a class="footer-menu__link" href="#examples">Портфолио</a>
+				</li>
+				<li class="footer-menu__block">
+					<a class="footer-menu__link" href="#price-banner">Стоимость</a>
+				</li>
+			</ul>
+
+			<address class="contacts-wrap">
+				<ul>
+					<li class="contacts-wrap__phone">
+						<span class="fi-telephone">
+						</span>
+
+						<span class="phone">
+							<a href="tel:+74999955577" title="Мой телефон">
+								+992 (92) 609-90-97
+							</a>
+						</span>
+					</li>
+					<li class="contacts-wrap__mail">
+						<span class="fi-mail">
+						</span>
+
+						<span class="e-mail">
+							<a href="gmailto:sharipovkhushhnud2222@gmail.com" title="Моя почта">sharipovkhushhnud2222@gmail.com</a>
+						</span>
+					</li>
+				</ul>
+			</address>
+
+			<address class="socials-wrap">
+				<button class="footer-btn phone-us-btn recall_btn" type="button"
+					aria-label="Кнопка вызова формы обратного звонка">
+					Заказать звонок
+				</button>
+
+				<ul class="socials-list">
+					<li class="socials-list__item">
+						<a class="socials-list__link" href="https://vk.com" title="Мы Вконтакте">
+							<span class="icon-vk"></span>
+						</a>
+					</li>
+					<li class="socials-list__item">
+						<a class="socials-list__link" href="https://www.facebook.com/profile.php?id=100044902322999" title="Мы в Facebook">
+							<span class="icon-facebook"></span>
+						</a>
+					</li>
+					<li class="socials-list__item">
+						<a class="socials-list__link" href="https://www.twitter.com" title="Мы в Twitter">
+							<span class="icon-twitter-bird"></span>
+						</a>
+					</li>
+					<li class="socials-list__item">
+						<a class="socials-list__link" href="https://www.instagram.com/_sh_kh.05/" title="Мы в Instagram">
+							<span class="icon-instagram"></span>
+						</a>
+					</li>
+				</ul>
+			</address>
+		</div>
+
+		<div class="footer-bar">
+			<p class="footer-bar__copyright">
+				<small>&#169; Шарипов Хушнуд, 2016 &mdash; 2022</small>
+			</p>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/modernizr-custom.js"></script>
+	<script src="https://unpkg.com/imask"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+		var element = document.getElementById('input-phone');
+		var maskOptions = {
+			mask: '+7 (00) 000 00 00',
+			lazy: false
+		};
+		var mask = IMask(element, maskOptions);
+	</script>
+</body>
+
+</html>
