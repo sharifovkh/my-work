@@ -1,0 +1,108 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #fbfbfb;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #1f1f24;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+} 
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, p {
+  padding: 0;
+  margin: 0;
+}
+
+table, tr, td {
+  border: none;
+}
+
+figure{
+  margin: 0;
+}
+
+form, input, button {
+  outline: none;
+  border: none;
+}
+
+input {
+  display: block;
+  font-size: inherit;
+}
+
+input[type="submit"], button {
+   cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1250px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+
+
+
